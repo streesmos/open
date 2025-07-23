@@ -21,7 +21,7 @@ export default function SignIn() {
             <div className="space-y-5">
               <div>
                 <label
-                  className="mb-1 block text-sm font-medium text-indigo-200/65"
+                  className="mb-1 block text-sm font-medium text-gray-600"
                   htmlFor="email"
                 >
                   Email
@@ -36,7 +36,7 @@ export default function SignIn() {
               <div>
                 <div className="mb-1 flex items-center justify-between gap-3">
                   <label
-                    className="block text-sm font-medium text-indigo-200/65"
+                    className="block text-sm font-medium text-gray-600"
                     htmlFor="password"
                   >
                     Пароль
@@ -69,7 +69,7 @@ export default function SignIn() {
             </div>
           </form>
           {/* Bottom link */}
-          <div className="mt-6 text-center text-sm text-indigo-200/65">
+          <div className="mt-6 text-center text-sm text-gray-600">
             Нет аккаунта?{' '}
             <Link className="font-medium text-indigo-500" href="/signup">
               Зарегистрируйтесь

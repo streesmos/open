@@ -17,16 +17,16 @@ export default function Catalog() {
             Каталог продукции «АЛМ»
           </h1>
           <div className="mx-auto grid max-w-sm gap-8 md:max-w-none md:grid-cols-2">
-            <div className="rounded-2xl bg-gray-800 p-6" data-aos="fade-up">
+            <div className="rounded-2xl bg-white p-6 shadow" data-aos="fade-up">
               <Image src={Product1} alt="Инъекционная смола" width={350} height={288} />
               <h2 className="mt-4 text-xl font-semibold">Инъекционная смола ALM</h2>
-              <p className="mt-2 text-indigo-200/65">Для герметизации трещин и швов бетона.</p>
+              <p className="mt-2 text-gray-600">Для герметизации трещин и швов бетона.</p>
               <p className="mt-2">Цена: 5 000 ₽</p>
             </div>
-            <div className="rounded-2xl bg-gray-800 p-6" data-aos="fade-up" data-aos-delay={200}>
+            <div className="rounded-2xl bg-white p-6 shadow" data-aos="fade-up" data-aos-delay={200}>
               <Image src={Product2} alt="Насос" width={350} height={288} />
               <h2 className="mt-4 text-xl font-semibold">Насос для инъектирования ALM</h2>
-              <p className="mt-2 text-indigo-200/65">Оборудование для ремонта конструкций.</p>
+              <p className="mt-2 text-gray-600">Оборудование для ремонта конструкций.</p>
               <p className="mt-2">Цена: 35 000 ₽</p>
             </div>
           </div>

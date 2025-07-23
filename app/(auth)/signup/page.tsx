@@ -21,7 +21,7 @@ export default function SignUp() {
             <div className="space-y-5">
               <div>
                 <label
-                  className="mb-1 block text-sm font-medium text-indigo-200/65"
+                  className="mb-1 block text-sm font-medium text-gray-600"
                   htmlFor="name"
                 >
                   Имя <span className="text-red-500">*</span>
@@ -36,7 +36,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  className="mb-1 block text-sm font-medium text-indigo-200/65"
+                  className="mb-1 block text-sm font-medium text-gray-600"
                   htmlFor="name"
                 >
                   Название компании <span className="text-red-500">*</span>
@@ -51,7 +51,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  className="mb-1 block text-sm font-medium text-indigo-200/65"
+                  className="mb-1 block text-sm font-medium text-gray-600"
                   htmlFor="email"
                 >
                   Рабочий email <span className="text-red-500">*</span>
@@ -65,7 +65,7 @@ export default function SignUp() {
               </div>
               <div>
                 <label
-                  className="block text-sm font-medium text-indigo-200/65"
+                  className="block text-sm font-medium text-gray-600"
                   htmlFor="password"
                 >
                   Пароль <span className="text-red-500">*</span>
@@ -91,7 +91,7 @@ export default function SignUp() {
             </div>
           </form>
           {/* Bottom link */}
-          <div className="mt-6 text-center text-sm text-indigo-200/65">
+          <div className="mt-6 text-center text-sm text-gray-600">
             Уже есть аккаунт?{' '}
             <Link className="font-medium text-indigo-500" href="/signin">
               Войти
