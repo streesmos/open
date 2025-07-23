@@ -118,7 +118,7 @@ export default function Testimonials() {
           <h2 className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
             Не верьте нам на слово
           </h2>
-          <p className="text-lg text-indigo-200/65">
+          <p className="text-lg text-gray-600">
             Мы предлагаем технологичные решения, которые помогают руководителям
             создавать более комфортные и здоровые рабочие пространства по всему
             миру.
@@ -128,7 +128,7 @@ export default function Testimonials() {
         <div>
           {/* Buttons */}
           <div className="flex justify-center pb-12 max-md:hidden md:pb-16">
-            <div className="relative inline-flex flex-wrap justify-center rounded-[1.25rem] bg-gray-800/40 p-1">
+            <div className="relative inline-flex flex-wrap justify-center rounded-[1.25rem] bg-gray-200/40 p-1">
               {/* Button #1 */}
               <button
                 className={`flex h-8 flex-1 items-center gap-2.5 whitespace-nowrap rounded-full px-3 text-sm font-medium transition-colors focus-visible:outline-hidden focus-visible:ring-3 focus-visible:ring-indigo-200 ${category === 1 ? "relative bg-linear-to-b from-gray-900 via-gray-800/60 to-gray-900 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,--theme(--color-indigo-500/0),--theme(--color-indigo-500/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)]" : "opacity-65 transition-opacity hover:opacity-90"}`}
@@ -255,7 +255,7 @@ export function Testimonial({
         <div>
           <Image src={testimonial.clientImg} height={36} alt="Client logo" />
         </div>
-        <p className="text-indigo-200/65 before:content-['“'] after:content-['”']">
+        <p className="text-gray-600 before:content-['“'] after:content-['”']">
           {children}
         </p>
         <div className="flex items-center gap-3">
@@ -266,11 +266,11 @@ export function Testimonial({
             height={36}
             alt={testimonial.name}
           />
-          <div className="text-sm font-medium text-gray-200">
+          <div className="text-sm font-medium text-gray-800">
             <span>{testimonial.name}</span>
             <span className="text-gray-700"> - </span>
             <a
-              className="text-indigo-200/65 transition-colors hover:text-indigo-500"
+              className="text-gray-600 transition-colors hover:text-indigo-500"
               href="#0"
             >
               {testimonial.company}

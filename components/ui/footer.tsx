@@ -22,11 +22,11 @@ export default function Footer() {
         <div className="grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20">
           {/* 1st block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Продукт</h3>
+            <h3 className="text-sm font-medium text-gray-800">Продукт</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Возможности
@@ -34,7 +34,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Интеграции
@@ -42,7 +42,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Цены и тарифы
@@ -50,7 +50,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   История изменений
@@ -58,7 +58,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Наш метод
@@ -66,7 +66,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Пользовательское соглашение
@@ -76,11 +76,11 @@ export default function Footer() {
           </div>
           {/* 2nd block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Компания</h3>
+            <h3 className="text-sm font-medium text-gray-800">Компания</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   О нас
@@ -88,7 +88,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Разнообразие и инклюзивность
@@ -96,7 +96,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Блог
@@ -104,7 +104,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Вакансии
@@ -112,7 +112,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Финансовые отчёты
@@ -122,11 +122,11 @@ export default function Footer() {
           </div>
           {/* 3rd block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">Ресурсы</h3>
+            <h3 className="text-sm font-medium text-gray-800">Ресурсы</h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Сообщество
@@ -134,7 +134,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Условия использования
@@ -142,7 +142,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Сообщить об уязвимости
@@ -152,13 +152,13 @@ export default function Footer() {
           </div>
           {/* 4th block */}
           <div className="space-y-2">
-            <h3 className="text-sm font-medium text-gray-200">
+            <h3 className="text-sm font-medium text-gray-800">
               Библиотека контента
             </h3>
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Шаблоны
@@ -166,7 +166,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Руководства
@@ -174,7 +174,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   База знаний
@@ -182,7 +182,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Обучение
@@ -190,7 +190,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Управление cookies
@@ -204,11 +204,11 @@ export default function Footer() {
               <Logo />
             </div>
             <div className="text-sm">
-              <p className="mb-3 text-indigo-200/65">
+              <p className="mb-3 text-gray-600">
                 © Cruip.com
                 <span className="text-gray-700"> · </span>
                 <a
-                  className="text-indigo-200/65 transition hover:text-indigo-500"
+                  className="text-gray-600 transition hover:text-indigo-500"
                   href="#0"
                 >
                   Условия
